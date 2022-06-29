@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Bootstrap-Icon CSS -->
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- Cusotom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <section class="container mt-5">
+        <div class="row justify-content-md-center">
+            <form action="" class="col-md-6 col-sm-12 bg-white p-5 rounded shadow">
+                <div class="col-12 text-center">
+                    <h3 class="text-primary"><strong>Register Now</strong></h3>
+                </div>
+                <div class="mb-3 mt-5">
+                    <label for="text" class="form-lable">User Name</label>
+                    <input type="text" class="from-control" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-lable">Email address</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="from-lable">Password</label>
+                    <input type="password" class="from-control" id="password">
+                </div>
+                <div class="mb-3">
+                    <label for="confirm_password" class="from-lable">Confirm Password</label>
+                    <input type="password" class="from-control" id="confirm_password">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="terms">
+                    <label class="form-check-lable" for="terms">
+                        I agree to the terms and conditions.
+                    </label>
+                </div>
+                <div class="text-center mt-3">
+                    <button type="submit" class="btn btn-primary btn-rounded w-75">
+                        Register Now
+                    </button>
+                </div>
+                <div class="mb-3 text-center text-secondary mt-3">
+                    or register using
+                </div>
+
+                <div class="d-flex justify-content-around mb-3">
+                    <button type="submit" class="btn btn-danger btn-rounded">
+                        <i class="bi bi-google"></i>&nbsp;&nbsp;Google
+                    </button>
+                    <button type="submit" class="btn btn-primary btn-rounded">
+                        <i class="bi bi-facebook"></i>&nbsp;&nbsp;Facebook
+                    </button>
+                    <button type="submit" class="btn btn-primary btn-rounded">
+                        <i class="bi bi-linkedin"></i>&nbsp;&nbsp;Linkedin
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    
+</body>
+</html>
